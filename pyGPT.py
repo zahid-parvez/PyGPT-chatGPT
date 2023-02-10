@@ -11,7 +11,7 @@ while True:
     # Set up the model and prompt the user
     model_engine = "text-davinci-003"
     
-    prompt = input('Enter new prompt: ')
+    prompt = input('Key in the query: ')
 
 
     # Generating a response based on prompt
