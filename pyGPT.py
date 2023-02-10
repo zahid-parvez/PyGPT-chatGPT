@@ -4,6 +4,8 @@ import openai
 # Set up the OpenAI API client
 openai.api_key = "enter_your_secret-API-key_generated_from_openAI_website"
 
+# read the readme.md file to get API key
+
 # this loop will let us ask questions continuously and behave like ChatGPT untill either 'bye' or 'quit' or 'exit' encountered
 while True:
     # Set up the model and prompt the user
