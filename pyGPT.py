@@ -6,15 +6,13 @@ openai.api_key = "enter_your_secret-API-key_generated_from_openAI_website"
 
 # read the readme.md file to get API key
 
-# this loop will let us ask questions continuously and behave like ChatGPT untill either 'bye' or 'quit' or 'exit' encountered
+# this loop will let us ask questions continuously and behave like ChatGPT untill either 'bye' encountered
 while True:
     # Set up the model and prompt the user
     model_engine = "text-davinci-003"
     
     prompt = input('Enter new prompt: ')
 
-    if 'quit' or 'exit' in prompt:
-        break
 
     # Generating a response based on prompt
     completion = openai.Completion.create(
