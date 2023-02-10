@@ -7,6 +7,9 @@ We need openai library to use ChatGPT with Python, run the following command in 
 Steps to get your own API key
 
 1.The OpenAI website can be accessed at 👉 https://openai.com/
+  Click On API
+  ![image](https://user-images.githubusercontent.com/91465009/218103420-e7ad2f69-0271-43ff-ad78-8056c324550e.png)
+
 
 2.Sign Up or login into the site(if you have used chatGPT before then you can go for login else register your self into the site using signUp)
 
