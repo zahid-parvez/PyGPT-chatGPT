@@ -31,7 +31,7 @@ while True:
     print(response)
 
     #  if this if-cond is placed before geneation of response, the response from openai will not be called 
-    # and concersation will end up without goobye message 
+    # and chat will end up without goobye message 
 
     if 'bye' in prompt:
         break
